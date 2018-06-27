@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <context:component-scan base-package="com.douby.provider"/>
+    <!-- 服务名称 容错模式 -->
+    <dubbo:application name="server-cluster" owner="douby"/>
+
+    <!-- 注册中心 -->
+    <!--<dubbo:registry address="N/A"/>-->
+
+    <!-- 同一个服务多个协议 会有约束 对两种协议做声明 -->
+    <dubbo:protocol name="dubbo" host="192.168.121.1" port="20880"/>
+    <dubbo:protocol name="hessian" port="20881"/>
+
+    <dubbo:registry protocol="zookeeper" address="192.168.121.142" port="2181"/>
+    <!--<dubbo:registry address="zookeeper://192.168.121.142:2181" id="reg2"/>-->
+
+    <dubbo:service interface="com.douby.server.SayHello" ref="sayHello" protocol="dubbo,hessian" version="1.0.0" cluster="forking" />
+
+    <dubbo:service interface="com.douby.server.SayHello" ref="sayHelloV2" protocol="dubbo,hessian" version="1.0.1"/>
+
+    <dubbo:service interface="com.douby.server.DemoService" ref="demoServiceImpl" protocol="dubbo"/>
+
+    <!-- dubbo的多协议支持 RMI hessian webService http thirft dubbo(默认) -->
+
+    <bean id="sayHello" class="com.douby.provider.SayHelloImpl"/>
+
+    <bean id="sayHelloV2" class="com.douby.provider.SayHelloImlV2"/>
+
+    <bean id="demoService" class="com.douby.provider.DemoServiceImpl"/>
+</beans>

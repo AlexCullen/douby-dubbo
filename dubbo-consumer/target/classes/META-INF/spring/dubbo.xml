@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 服务名称 -->
+    <dubbo:application name="consumer" owner="douby"/>
+
+    <!-- 注册中心 -->
+    <!--<dubbo:registry address="N/A"/>-->
+
+
+    <!-- 注册中心的缓存机制， 将provider保存到指定的file中， 定时任务去更新缓存 -->
+    <dubbo:registry address="zookeeper://192.168.121.142:2181" file="e:/dubbo-server"/>
+    <!--<dubbo:registry address="zookeeper://192.168.121.142:2181" id="reg2"/>-->
+
+
+    <!--<dubbo:reference id="sayHello" interface="com.douby.server.SayHello"  url="dubbo://192.168.121.1:20880/com.douby.server.SayHello"/>-->
+   <!-- 集群调用  随机负载均衡 调用 -->
+    <dubbo:reference id="sayHello" interface="com.douby.server.SayHello" protocol="dubbo" check="false" version="1.0.0"/>
+
+    <dubbo:reference id="sayHelloH" interface="com.douby.server.SayHello" protocol="hessian" check="false" version="1.0.1"/>
+
+    <dubbo:reference id="demoService" interface="com.douby.server.DemoService" protocol="dubbo" check="false"/>
+
+
+    <!--使用多版本-->
+    <dubbo:reference id="sayHelloDubboVersion0" interface="com.douby.server.SayHello" protocol="dubbo" check="false" version="1.0.0"/>
+
+    <dubbo:reference id="sayHelloHessianVersion0" interface="com.douby.server.SayHello" protocol="hessian" check="false" version="1.0.0"/>
+
+    <dubbo:reference id="sayHelloDubboVersion1" interface="com.douby.server.SayHello" protocol="dubbo" check="false" version="1.0.1"/>
+
+    <dubbo:reference id="sayHelloHessianVersion1" interface="com.douby.server.SayHello" protocol="hessian" check="false" version="1.0.1"/>
+
+    <dubbo:reference id="sayHelloDubboNoVersion" interface="com.douby.server.SayHello" protocol="dubbo" check="false"/>
+
+    <dubbo:reference id="sayHelloHessianNoVersion" interface="com.douby.server.SayHello" protocol="hessian" check="false"/>
+
+</beans>

@@ -1,9 +1,4 @@
-package com.douby.provider;
-
-import com.douby.server.DemoService;
-import org.springframework.stereotype.Service;
-
-import java.util.ServiceLoader;
+package com.douby.mysql;
 
 /**
  *                _ooOoo_
@@ -37,13 +32,8 @@ import java.util.ServiceLoader;
  *       不见满街漂亮妹，哪个归得程序员？
  *
  * @Author: cpzh
- * @Date: 2018/6/19 20:53
+ * @Date: 2018/6/26 21:46
  * TODO:
  */
-@Service
-public class DemoServiceImpl implements DemoService {
-    @Override
-    public String demoProtol(String name) {
-        return "I'm demo protol " + name;
-    }
+public class MySqlDataSource {
 }
