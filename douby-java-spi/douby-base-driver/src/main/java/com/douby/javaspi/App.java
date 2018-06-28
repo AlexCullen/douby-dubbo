@@ -1,4 +1,4 @@
-package com.douby.java-spi;
+package com.douby.javaspi;
 
 /**
  * Hello world!

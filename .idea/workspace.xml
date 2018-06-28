@@ -2,31 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e444f4-a326-4218-909f-8d360503d865" name="Default" comment="java-spi">
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/doubybasedriver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/java-spi/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/test/java/com/douby/java-spi/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-java-spi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/doubymysqldriver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/main/java/com/douby/java-spi/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/test/java/com/douby/java-spi/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/doubyoracledriver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/java-spi/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/test/java/com/douby/java-spi/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/src/site/apt/index.apt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/src/site/markdown/markdown-velocity.md.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/src/site/markdown/markdown.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douby-java-spi/src/site/site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/com/douby/server/spi/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/javaspi/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-driver-test/douby-driver-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-driver-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/main/java/com/douby/javaspi/MySqlDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/resources/META-INF/services/com.douby.javaspi.Driver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/javaspi/OracleDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/resources/META-INF/services/com.douby.javaspi.Driver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/douby/provider/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/douby/provider/DemoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/java-spi/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/javaspi/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/test/java/com/douby/java-spi/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/test/java/com/douby/javaspi/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/doubymysqldriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/doubymysqldriver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/main/java/com/douby/java-spi/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/main/java/com/douby/javaspi/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/test/java/com/douby/java-spi/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/test/java/com/douby/javaspi/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/doubyoracledriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/doubyoracledriver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/java-spi/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/javaspi/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/test/java/com/douby/java-spi/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/test/java/com/douby/javaspi/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douby-java-spi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/douby-java-spi/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/serverapi/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
@@ -38,6 +36,7 @@
     <ignored path="$PROJECT_DIR$/douby-java-spi/douby-base-driver/target/" />
     <ignored path="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/target/" />
     <ignored path="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/target/" />
+    <ignored path="$PROJECT_DIR$/douby-java-spi/douby-driver-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,49 +46,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-api/src/main/java/com/douby/server/spi/DataSource.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-driver-test/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="346">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/douby-java-spi/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="34" column="41" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="41" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="125">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/java-spi/App.java">
+        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-driver-test/src/main/java/com/douby/javaspi/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OracleDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/javaspi/OracleDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <folding>
+                <element signature="e#1128#1129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="com.douby.javaspi.Driver" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/resources/META-INF/services/com.douby.javaspi.Driver">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/javaspi/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="37" selection-start-line="37" selection-end-line="39" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceLoader.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ServiceLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -119,6 +155,7 @@
       <find>Mock</find>
       <find>系统出错</find>
       <find>系统出错， 服务降级Mock</find>
+      <find>com.douby.java-spi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/douby/provider/App.java" />
         <option value="$PROJECT_DIR$/server-api/src/main/java/com/douby/server/SayHello.java" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/douby/provider/SayHelloImpl.java" />
         <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/douby/consumer/App.java" />
@@ -162,8 +198,23 @@
         <option value="$PROJECT_DIR$/mysqldrivespi/pom.xml" />
         <option value="$PROJECT_DIR$/mysqldrivespi/src/main/java/com/douby/mysql/MySqlDataSource.java" />
         <option value="$PROJECT_DIR$/mysqldrivespi/src/main/resources/META-INF/service/com.douby.server.DataSource" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/java-spi/App.java" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/main/java/com/douby/javaspi/App.java" />
         <option value="$PROJECT_DIR$/douby-java-spi/pom.xml" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/javaspi/App.java" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/javaspi/Driver.java" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/test/java/com/douby/javaspi/AppTest.java" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/test/java/com/douby/javaspi/AppTest.java" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/test/java/com/douby/javaspi/AppTest.java" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/main/java/com/douby/javaspi/MySqlDriver.java" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/resources/META-INF/services/com.douby.javaspi.Driver" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/pom.xml" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-base-driver/pom.xml" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-driver-test/src/main/java/com/douby/javaspi/App.java" />
         <option value="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/pom.xml" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/javaspi/OracleDriver.java" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-driver-test/pom.xml" />
+        <option value="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/resources/META-INF/services/com.douby.javaspi.Driver" />
       </list>
     </option>
   </component>
@@ -186,6 +237,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="douby-java-spi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="douby-java-spi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="dubbo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
@@ -195,9 +255,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="818" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="439" />
+    <option name="y" value="4" />
     <option name="width" value="1420" />
     <option name="height" value="982" />
   </component>
@@ -231,6 +291,98 @@
               <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-driver-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-driver-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-driver-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-driver-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-driver-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javaspi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-driver-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-oracle-driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-oracle-driver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-oracle-driver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-oracle-driver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-oracle-driver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javaspi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-oracle-driver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="douby-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="douby-java-spi" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-oracle-driver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -250,23 +402,23 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\douby-dubbo\dubbo-provider\src\main\resources\META-INF\spring" />
+      <recent name="E:\workspace\douby-dubbo\dubbo-provider\src\main\resources" />
+      <recent name="E:\workspace\douby-dubbo\dubbo-consumer\src\main\resoureces\META-INF\spring" />
+      <recent name="E:\workspace\douby-dubbo\dubbo-provider\src\main\resources\META-INF.spring" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.douby.consumer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.douby.provider" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\douby-dubbo\dubbo-consumer\src\main\resoureces\META-INF\spring" />
       <recent name="E:\workspace\douby-dubbo\dubbo-provider\src\main\resources\META-INF\spring" />
       <recent name="E:\workspace\douby-dubbo\dubbo-consumer\src\main\resoureces" />
       <recent name="E:\workspace\douby-dubbo\dubbo-provider\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.douby.provider" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\douby-dubbo\dubbo-provider\src\main\resources\META-INF\spring" />
-      <recent name="E:\workspace\douby-dubbo\dubbo-provider\src\main\resources" />
-      <recent name="E:\workspace\douby-dubbo\dubbo-consumer\src\main\resoureces\META-INF\spring" />
-      <recent name="E:\workspace\douby-dubbo\dubbo-provider\src\main\resources\META-INF.spring" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,9 +433,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MockClientTest.testMock">
+  <component name="RunManager" selected="Application.App">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.douby.javaspi.App" />
+      <module name="douby-driver-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.douby.javaspi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="MockServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.douby.provider.mock.MockServer" />
@@ -298,17 +461,6 @@
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.douby.provider.Server" />
-      <module name="dubbo-provider" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.douby.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.douby.provider.ServerMain" />
       <module name="dubbo-provider" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -416,19 +568,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ServerMain" />
       <item itemvalue="Application.Server" />
       <item itemvalue="JUnit.DubboClientTest.testMultiVersion" />
       <item itemvalue="Application.MockServer" />
       <item itemvalue="JUnit.MockClientTest.testMock" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.MockClientTest.testMock" />
         <item itemvalue="Application.MockServer" />
         <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.DubboClientTest.testMultiVersion" />
-        <item itemvalue="Application.ServerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +606,7 @@
       <workItem from="1530012652702" duration="733000" />
       <workItem from="1530014764001" duration="6325000" />
       <workItem from="1530053561598" duration="236000" />
-      <workItem from="1530139591997" duration="863000" />
+      <workItem from="1530139591997" duration="4473000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo测试">
       <created>1530019374232</created>
@@ -481,10 +633,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24250000" />
+    <option name="totallyTimeSpent" value="27860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -493,16 +645,17 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.08802083" />
+      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.21979167" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39183673" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39183673" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21510416" />
       <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -514,7 +667,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960325" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,91 +685,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resoureces/META-INF/spring/dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="132" selection-start-line="15" selection-start-column="132" selection-end-line="15" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-api/src/main/java/com/douby/server/SayHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/douby/provider/SayHelloImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/com/douby/consumer/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serverapi/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/test/java/com/douby/consumer/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/test/java/com/douby/provider/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9.jar!/com/alibaba/dubbo/container/spring/SpringContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="28" column="61" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9.jar!/com/alibaba/dubbo/container/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9.jar!/com/alibaba/dubbo/container/Container.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9.jar!/com/alibaba/dubbo/container/log4j/Log4jContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-446">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resoureces/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -832,18 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/douby-java-spi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-200">
@@ -851,10 +906,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/java-spi/App.java">
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/javaspi/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/main/java/com/douby/javaspi/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/javaspi/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/test/java/com/douby/javaspi/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/test/java/com/douby/javaspi/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/test/java/com/douby/javaspi/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/main/java/com/douby/javaspi/MySqlDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/src/resources/META-INF/services/com.douby.javaspi.Driver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-driver-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/resources/META-INF/services/com.douby.javaspi.Driver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/src/main/java/com/douby/javaspi/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="37" selection-start-line="37" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/src/main/java/com/douby/javaspi/OracleDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douby-java-spi/douby-driver-test/src/main/java/com/douby/javaspi/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -910,12 +1091,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>dubbo-consumer</last-edited>
+          <last-edited>douby-java-spi</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -4,13 +4,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.douby.java-spi</groupId>
+  <groupId>com.douby.javaspi</groupId>
   <artifactId>douby-java-spi</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>douby-base-driver</module>
     <module>douby-mysql-driver</module>
     <module>douby-oracle-driver</module>
+    <module>douby-driver-test</module>
   </modules>
   <packaging>pom</packaging>
 
