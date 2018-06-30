@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="douby-driver-test" />
+        <module name="douby-source-code" />
         <module name="doubybasedriver" />
         <module name="doubymysqldriver" />
         <module name="doubyoracledriver" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="douby-driver-test" target="1.7" />
       <module name="douby-java-spi" target="1.5" />
+      <module name="douby-source-code" target="1.7" />
       <module name="doubybasedriver" target="1.7" />
       <module name="doubydriver" target="1.5" />
       <module name="doubymysqldriver" target="1.7" />

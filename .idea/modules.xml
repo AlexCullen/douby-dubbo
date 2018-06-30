@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/douby-java-spi/douby-driver-test/douby-driver-test.iml" filepath="$PROJECT_DIR$/douby-java-spi/douby-driver-test/douby-driver-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/douby-java-spi/douby-java-spi.iml" filepath="$PROJECT_DIR$/douby-java-spi/douby-java-spi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/douby-source-code/douby-source-code.iml" filepath="$PROJECT_DIR$/douby-source-code/douby-source-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/douby-java-spi/douby-base-driver/doubybasedriver.iml" filepath="$PROJECT_DIR$/douby-java-spi/douby-base-driver/doubybasedriver.iml" />
       <module fileurl="file://$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/doubymysqldriver.iml" filepath="$PROJECT_DIR$/douby-java-spi/douby-mysql-driver/doubymysqldriver.iml" />
       <module fileurl="file://$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/doubyoracledriver.iml" filepath="$PROJECT_DIR$/douby-java-spi/douby-oracle-driver/doubyoracledriver.iml" />
